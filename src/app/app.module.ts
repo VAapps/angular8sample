@@ -5,6 +5,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { OrdersComponent } from './orders/orders.component';
 import { HomeComponent } from './home/home.component';
 import { NavMenuComponent } from './shared/nav-menu/nav-menu.component';
@@ -25,7 +26,8 @@ import { ListComponent } from './list/list.component';
   imports: [
     NgbModule,
     BrowserModule,
-    AppRoutingModule    
+    AppRoutingModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

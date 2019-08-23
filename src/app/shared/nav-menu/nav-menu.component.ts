@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { faCoffee, faHome, faTasks, faList, faSignOutAlt } from '@fortawesome/free-solid-svg-icons';
+
 
 @Component({
   selector: 'app-nav-menu',
@@ -6,6 +8,12 @@ import { Component, OnInit } from '@angular/core';
   styles: []
 })
 export class NavMenuComponent implements OnInit {
+
+  faCoffee = faCoffee;
+  faHome = faHome;
+  faTasks = faTasks;
+  faList = faList;
+  faSignOutAlt = faSignOutAlt;
 
   constructor() { }
 
