@@ -1,6 +1,6 @@
 {
-  "name": "VAapps MyVault",
-  "version": "1.0.1",
+  "name": "vaapps myvault",
+  "version": "1.0.2",
   "buildversion": "1001",
   "scripts": {
     "ng": "ng",
