@@ -39,7 +39,7 @@ npm install ngx-device-detector --save
 ## Add bootstrap to the angular.json
 ```
 "styles": [
-              "src/styles.scss",
-              "node_modules/bootstrap/dist/css/bootstrap.min.css"
-            ],
+    "src/styles.scss",
+    "node_modules/bootstrap/dist/css/bootstrap.min.css"
+  ],
 ```
