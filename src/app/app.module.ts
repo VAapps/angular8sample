@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { DeviceDetectorModule } from 'ngx-device-detector';
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -12,6 +13,8 @@ import { NavMenuComponent } from './shared/nav-menu/nav-menu.component';
 import { NavFooterComponent } from './shared/nav-footer/nav-footer.component';
 import { TaskComponent } from './task/task.component';
 import { ListComponent } from './list/list.component';
+import { AppversionComponent } from './appversion/appversion.component';
+import { UserDeviceInfoComponent } from './user-device-info/user-device-info.component';
 
 @NgModule({
   declarations: [
@@ -21,13 +24,16 @@ import { ListComponent } from './list/list.component';
     NavMenuComponent,
     NavFooterComponent,
     TaskComponent,
-    ListComponent
+    ListComponent,
+    AppversionComponent,
+    UserDeviceInfoComponent
   ],
   imports: [
     NgbModule,
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    DeviceDetectorModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

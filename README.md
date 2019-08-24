@@ -25,3 +25,21 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Installed NPM Packages
+```
+npm install bootstrap jquery popper --save
+
+npm install @fortawesome/fontawesome-svg-core --save
+npm install @fortawesome/free-solid-svg-icons --save
+npm install @fortawesome/angular-fontawesome --save
+
+npm install ngx-device-detector --save
+```
+## Add bootstrap to the angular.json
+```
+"styles": [
+              "src/styles.scss",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
+            ],
+```
