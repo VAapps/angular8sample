@@ -1,6 +1,28 @@
-# Readme
+#### VAapps 
+# MyVault
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.2.
+This Project was Built On
+* Angular CLI 8.1.2
+* Docker Multistage Build
+* Nginx 1.17
+
+## Installed NPM Packages
+```
+npm install bootstrap jquery popper --save
+
+npm install @fortawesome/fontawesome-svg-core --save
+npm install @fortawesome/free-solid-svg-icons --save
+npm install @fortawesome/angular-fontawesome --save
+
+npm install ngx-device-detector --save
+```
+## Add bootstrap to the angular.json
+```
+"styles": [
+  "src/styles.scss",
+  "node_modules/bootstrap/dist/css/bootstrap.min.css"
+],
+```
 
 ## Development server
 
@@ -26,20 +48,3 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-## Installed NPM Packages
-```
-npm install bootstrap jquery popper --save
-
-npm install @fortawesome/fontawesome-svg-core --save
-npm install @fortawesome/free-solid-svg-icons --save
-npm install @fortawesome/angular-fontawesome --save
-
-npm install ngx-device-detector --save
-```
-## Add bootstrap to the angular.json
-```
-"styles": [
-    "src/styles.scss",
-    "node_modules/bootstrap/dist/css/bootstrap.min.css"
-  ],
-```
