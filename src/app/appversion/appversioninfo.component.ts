@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 declare var require: any;
 
 @Component({
-  selector: 'app-appversion',
-  templateUrl: './appversion.component.html',
+  selector: 'app-appversioninfo',
+  templateUrl: './appversioninfo.component.html',
   styles: []
 })
-export class AppversionComponent implements OnInit {
+export class AppversionInfoComponent implements OnInit {
 
   appversion: string = require('../../../package.json').version;
   appbuildversion: string = require('../../../package.json').buildversion;

@@ -13,7 +13,7 @@ import { NavMenuComponent } from './shared/nav-menu/nav-menu.component';
 import { NavFooterComponent } from './shared/nav-footer/nav-footer.component';
 import { TaskComponent } from './task/task.component';
 import { ListComponent } from './list/list.component';
-import { AppversionComponent } from './appversion/appversion.component';
+import { AppversionInfoComponent } from './appversion/appversioninfo.component';
 import { UserDeviceInfoComponent } from './user-device-info/user-device-info.component';
 
 @NgModule({
@@ -25,7 +25,7 @@ import { UserDeviceInfoComponent } from './user-device-info/user-device-info.com
     NavFooterComponent,
     TaskComponent,
     ListComponent,
-    AppversionComponent,
+    AppversionInfoComponent,
     UserDeviceInfoComponent
   ],
   imports: [

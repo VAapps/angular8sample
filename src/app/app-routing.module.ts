@@ -5,7 +5,7 @@ import { HomeComponent } from './home/home.component';
 import { TaskComponent } from './task/task.component';
 import { ListComponent } from './list/list.component';
 import { UserDeviceInfoComponent } from './user-device-info/user-device-info.component';
-import { AppversionComponent } from './appversion/appversion.component';
+import { AppversionInfoComponent } from './appversion/appversioninfo.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -14,7 +14,7 @@ const routes: Routes = [
   { path: 'list', component: ListComponent },
   { path: 'orders', component: OrdersComponent },
   { path: 'deviceinfo', component: UserDeviceInfoComponent },
-  { path: 'version', component: AppversionComponent }
+  { path: 'appversioninfo', component: AppversionInfoComponent }
 ];
 
 @NgModule({
