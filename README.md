@@ -15,7 +15,11 @@ npm install @fortawesome/free-solid-svg-icons --save
 npm install @fortawesome/angular-fontawesome --save
 
 npm install ngx-device-detector --save
+
+ng add @angular/pwa
 ```
+
+
 ## Add bootstrap to the angular.json
 ```
 "styles": [
@@ -25,11 +29,13 @@ npm install ngx-device-detector --save
 ```
 
 ## Features Added
-appversioninfo
-deviceinfo
-
-
-
+App Version Info
+ \
+Device Info
+ \
+PWA
+ 
+ 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.

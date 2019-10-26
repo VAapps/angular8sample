@@ -15,6 +15,8 @@ import { TaskComponent } from './task/task.component';
 import { ListComponent } from './list/list.component';
 import { AppversionInfoComponent } from './appversion/appversioninfo.component';
 import { UserDeviceInfoComponent } from './user-device-info/user-device-info.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -33,7 +35,8 @@ import { UserDeviceInfoComponent } from './user-device-info/user-device-info.com
     BrowserModule,
     AppRoutingModule,
     FontAwesomeModule,
-    DeviceDetectorModule.forRoot()
+    DeviceDetectorModule.forRoot(),
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
   bootstrap: [AppComponent]
