@@ -2,7 +2,7 @@
 # MyVault
 
 This Project was Built On
-* Angular CLI 8.1.2
+* Angular CLI 8.3.14
 * Docker Multistage Build
 * Nginx 1.17
 
@@ -34,7 +34,13 @@ App Version Info
 Device Info
  \
 PWA
- 
+
+## Upgrade To Latest Version Angular
+Upgrade all your dependencies and dev dependencies in package.json that includes typeScript,RxJS etc
+```
+npm install -g @angular/cli@latest
+ng update @angular/cli
+``` 
  
 ## Development server
 
